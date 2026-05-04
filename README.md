@@ -1,4 +1,4 @@
-# openipcmonster-jovision-gk7205-ptz
+# OpenIPC Monster Build for GK7205V200 PTZ Bluetooth Speaker Camera
 OpenIPC Custom Build for No Name Jovision GK7205V200 PTZ WiFi Camera
 <img width="900" height="759" alt="shopping" src="https://github.com/user-attachments/assets/80bb90bc-26af-42f9-a204-3f7a84f6f547" />
 
