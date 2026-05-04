@@ -1,12 +1,17 @@
 # openipcmonster-jovision-gk7205-ptz
 OpenIPC Custom Build for No Name Jovision GK7205V200 PTZ WiFi Camera
 <img width="900" height="759" alt="shopping" src="https://github.com/user-attachments/assets/80bb90bc-26af-42f9-a204-3f7a84f6f547" />
+
 This is a no-name concealed WiFi spy camera that is popularly sold around the world on platforms like Amazon. There are two versions of this camera, a "Bluetooth speaker" and a "wireless Qi charger". Both cameras have the same internals and run the same firmware:
+
+
 Chipset: Goke GK7205V200
 Image sensor: Galaxycore GC2053
 SPI flash: 16MB
 WiFi: Realtek RTL8188FU (connected over GPIO)
 The camera has a stepper motor which has a 90 degree pan function (no tilt or zoom).
+
+
 The camera mainboard itself has no manufacturer markings, and the camera is powered via a battery independently from the USB-C interface that also powers the Bluetooth speaker or charger component of the device. The battery can charge via USB-C, or the camera can be run entirely off the battery. There is an unused MicroUSB port on the camera mainboard, which was found to provide a more stable power source for operation - the cameras have trouble handling their multiple power sources and when the battery runs low or the USB-C power interface is stretched between providing power to the camera's "disguise function" and the camera, all sorts of strange hardware malfunctions begin to show up - the RTL WiFi chip browns out and does not show up in the system, the stepper motor struggles with moving smoothly, etc. 
 
 On stock firmware, the cameras are connected to a Chinese cloud based platform called Closeli, and use two different apps (Cloud365 and toopcam) for control. Older versions come with Cloud365, newer ones come with toopcam despite the apps being the exact same in every respect, which highlights the principle idea that these cameras may be running off of an infrastructure that operates in a grey area with Chinese law, storing data with no protection and in a manner that makes these cameras unsafe for global customers.
