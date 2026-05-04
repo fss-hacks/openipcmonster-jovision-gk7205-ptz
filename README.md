@@ -2,6 +2,7 @@
 OpenIPC Custom Build for No Name Jovision GK7205V200 PTZ WiFi Camera
 <img width="900" height="759" alt="shopping" src="https://github.com/user-attachments/assets/80bb90bc-26af-42f9-a204-3f7a84f6f547" />
 
+
 This is a no-name concealed WiFi spy camera that is popularly sold around the world on platforms like Amazon. There are two versions of this camera, a "Bluetooth speaker" and a "wireless Qi charger". Both cameras have the same internals and run the same firmware:
 
 
