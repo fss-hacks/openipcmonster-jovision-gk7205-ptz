@@ -6,9 +6,13 @@ This is a no-name concealed WiFi spy camera that is popularly sold around the wo
 
 
 Chipset: Goke GK7205V200
+
 Image sensor: Galaxycore GC2053
+
 SPI flash: 16MB
+
 WiFi: Realtek RTL8188FU (connected over GPIO)
+
 The camera has a stepper motor which has a 90 degree pan function (no tilt or zoom).
 
 
@@ -28,4 +32,4 @@ There were challenges to even get OpenIPC to correctly build firmware, then issu
 Once I had a working build, I thought I was in the clear - reassembling the camera and allowing it to run untouched. After several days, I noticed the camera was disconnected and found it was due to power management issues. 
 Despite 16MB of SPI flash, the GK7205 is easily overwhelmed by tasks the processor handled normally on the stock firmware, including SD card recording, OSD subtitles and especially WiFi connection on boot. 
 
-These builds represent some radical adaption from stock firmware and special coding and translation to run in a stable way. This is my first time ever creating a build or doing this kind of work. This work will be continuously updated until a true solution to the power management issues are found and the camera is successfully disconnected from parasitic Chinese cloud services and Onvif compatible so it can truly be used in a safe way. 
+These builds represent some radical adaption from stock firmware and special coding and translation to run in a stable way. This is my first time ever creating a build or doing this kind of work. This work will be continuously updated until a true solution to the power management issues are found and the camera is successfully disconnected from parasitic Chinese cloud services and Onvif compatible so it can truly be used in a safe way. This is a first in a series of conversions of this class of cameras. 
